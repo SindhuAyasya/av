@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost", "root", "", "mca");
+$con=mysqli_connect("localhost", "root", "", "av");
 if(mysqli_connect_errno())
 {
 echo "Connection Fail".mysqli_connect_error();
